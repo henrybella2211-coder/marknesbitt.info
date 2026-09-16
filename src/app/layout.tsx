@@ -39,6 +39,9 @@ export const metadata: Metadata = {
     title: "The Vape Digest",
     description: "UK vaping news and regulation, explained.",
   },
+  verification: {
+    google: "OnGr-s5y3Bh7fLOZTZgUSQZ14nmekZXOkw4PvzCyxgQ",
+  },
 };
 
 export default function RootLayout({
