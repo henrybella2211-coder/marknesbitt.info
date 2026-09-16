@@ -1,26 +1,177 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --navy: #141b33;
+  --off-white: #f4f2ec;
+  --brick: #a8422d;
+  --hairline: #141b3333;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-navy: var(--navy);
+  --color-off-white: var(--off-white);
+  --color-brick: var(--brick);
+  --font-serif: var(--font-source-serif);
+  --font-sans: var(--font-plex-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--off-white);
+  color: var(--navy);
+  font-family: var(--font-plex-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-source-serif), Georgia, "Times New Roman", serif;
+}
+
+::selection {
+  background: var(--brick);
+  color: var(--off-white);
+}
+
+a {
+  text-decoration-thickness: 1px;
+}
+
+/* Visible focus states throughout the site */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--brick);
+  outline-offset: 2px;
+}
+
+.eyebrow {
+  font-family: var(--font-plex-sans), sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--brick);
+}
+
+.hairline {
+  border-color: var(--hairline);
+}
+
+.underline-link {
+  color: var(--brick);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.underline-link:hover {
+  text-decoration-thickness: 2px;
+}
+
+/* Article body typography */
+.prose-article h2 {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 0.4rem;
+}
+
+.prose-article h3 {
+  font-family: var(--font-source-serif), Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.prose-article p {
+  color: color-mix(in srgb, var(--navy) 88%, transparent);
+}
+
+.prose-article ul,
+.prose-article ol {
+  margin-left: 1.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.prose-article ul {
+  list-style-type: square;
+}
+
+.prose-article ol {
+  list-style-type: decimal;
+}
+
+.prose-article li {
+  margin-bottom: 0.4rem;
+  color: color-mix(in srgb, var(--navy) 88%, transparent);
+}
+
+.prose-article a {
+  color: var(--brick);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.prose-article strong {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.prose-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.25rem 0;
+  font-size: 0.92rem;
+}
+
+.prose-article caption {
+  text-align: left;
+  font-size: 0.8rem;
+  color: color-mix(in srgb, var(--navy) 60%, transparent);
+  margin-bottom: 0.4rem;
+}
+
+.prose-article th,
+.prose-article td {
+  border: 1px solid var(--hairline);
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-article th {
+  background: color-mix(in srgb, var(--navy) 6%, var(--off-white));
+  font-family: var(--font-plex-sans), sans-serif;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.prose-article blockquote {
+  border-left: 3px solid var(--brick);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: color-mix(in srgb, var(--navy) 75%, transparent);
+}
+
+.small-caps-label {
+  font-family: var(--font-plex-sans), sans-serif;
+  font-variant: small-caps;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.72rem;
 }
