@@ -54,6 +54,32 @@ export const articles: Article[] = [
     image: "/images/shop-counter-checkout.jpg",
     imageAlt: "A customer paying at a shop counter point-of-sale system",
   },
+  {
+    slug: "uk-vaping-duty-october-2026-changes",
+    title: "The new UK vaping duty: what's changing from October 2026",
+    category: "Regulation",
+    excerpt:
+      "A new Vaping Products Duty of £2.20 per 10ml takes effect on 1 October 2026, alongside a one-off tobacco duty rise. Here is what the duty covers, who pays it, and what it means for the price of e-liquid.",
+    readTime: "8 min read",
+    lastUpdatedDisplay: "Last updated 16 September 2026",
+    lastUpdatedISO: "2026-09-16",
+    publishedISO: "2026-09-16",
+    image: "/images/uk-pound-coins-currency.jpg",
+    imageAlt: "A pile of British pound coins and small change on a table",
+  },
+  {
+    slug: "vape-advertising-marketing-rules-uk-explained",
+    title: "Vape advertising and marketing rules in the UK explained",
+    category: "Regulation",
+    excerpt:
+      "E-cigarette ads are banned outright from TV and radio, shut out of most paid online advertising, and tightly restricted on social media. Here is how the CAP and BCAP codes actually control where and how vapes can be marketed.",
+    readTime: "9 min read",
+    lastUpdatedDisplay: "Last updated 17 September 2026",
+    lastUpdatedISO: "2026-09-17",
+    publishedISO: "2026-09-17",
+    image: "/images/smartphone-social-media-icons.jpg",
+    imageAlt: "A smartphone screen showing a grid of social media app icons",
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {

@@ -170,7 +170,13 @@ export default function Page() {
         for a standard 10ml nicotine bottle, with pre-filled replacement pods
         usually working out at roughly £3 to £5 depending on the brand and
         pack size. These are general price ranges rather than fixed figures,
-        and will vary between retailers.
+        and will vary between retailers. From 1 October 2026, those prices
+        are also affected by a new excise duty on vaping liquid; we cover the
+        rate and what it means for shoppers in{" "}
+        <Link href="/guides/uk-vaping-duty-october-2026-changes">
+          our explainer on the new UK vaping duty
+        </Link>
+        .
       </p>
 
       <h2>Frequently asked questions</h2>

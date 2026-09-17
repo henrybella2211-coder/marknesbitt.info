@@ -152,6 +152,20 @@ export default function Page() {
         </li>
       </ul>
 
+      <h2>How advertising rules fit in</h2>
+      <p>
+        Age-of-sale enforcement is only one part of how the UK tries to limit
+        underage vaping. Separately, advertising rules enforced by the
+        Advertising Standards Authority restrict vape marketing from
+        appealing to under-18s in the first place, banning it from TV and
+        radio outright and tightly restricting it elsewhere. We cover how
+        that system works in{" "}
+        <Link href="/guides/vape-advertising-marketing-rules-uk-explained">
+          our explainer on UK vape advertising and marketing rules
+        </Link>
+        .
+      </p>
+
       <h2>What parents should know</h2>
       <p>
         For parents, the most practical takeaway is that the law already
