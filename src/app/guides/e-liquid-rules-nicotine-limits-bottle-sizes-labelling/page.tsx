@@ -58,7 +58,13 @@ export default function Page() {
         strengths, which is partly why 20mg/ml nic salt pods became popular
         with people switching from smoking, but the legal ceiling is
         identical either way. No UK retailer can lawfully sell e-liquid above
-        20mg/ml, regardless of how it is formulated.
+        20mg/ml, regardless of how it is formulated. For an example of how
+        these limits apply to a specific rechargeable pod kit, see our piece
+        on{" "}
+        <Link href="/guides/al-fakher-hypermax-prime-50k-uk-vaping-law">
+          how the Al Fakher HyperMax Prime 50K sits within UK vaping law
+        </Link>
+        .
       </p>
       <p>
         Below that ceiling, common UK strengths include 3mg, 6mg, 10mg,

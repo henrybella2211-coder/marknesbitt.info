@@ -68,6 +68,20 @@ export const articles: Article[] = [
     imageAlt: "A pile of British pound coins and small change on a table",
   },
   {
+    slug: "al-fakher-hypermax-prime-50k-uk-vaping-law",
+    title: "How the Al Fakher HyperMax Prime 50K works within UK vaping law",
+    category: "Regulation",
+    excerpt:
+      "The Al Fakher HyperMax Prime 50K is a rechargeable pod kit, not a disposable, which is why it stayed legal to sell after the 1 June 2025 ban. Here is how its pod size, bottle size and nicotine strength sit inside TRPR limits, and what that means for spotting a compliant device.",
+    readTime: "8 min read",
+    lastUpdatedDisplay: "Last updated 18 September 2026",
+    lastUpdatedISO: "2026-09-18",
+    publishedISO: "2026-09-18",
+    image: "/images/pod-vape-kit-on-table.jpg",
+    imageAlt:
+      "A rechargeable pod vape kit with a small display screen standing on a table",
+  },
+  {
     slug: "vape-advertising-marketing-rules-uk-explained",
     title: "Vape advertising and marketing rules in the UK explained",
     category: "Regulation",
