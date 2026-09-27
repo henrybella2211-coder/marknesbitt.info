@@ -94,6 +94,20 @@ export const articles: Article[] = [
     image: "/images/smartphone-social-media-icons.jpg",
     imageAlt: "A smartphone screen showing a grid of social media app icons",
   },
+  {
+    slug: "nic-salt-e-liquid-uk-compliance-rules",
+    title: "Nic salt e-liquid and the rules that keep it compliant",
+    category: "Regulation",
+    excerpt:
+      "Nicotine salt e-liquid is bound by the same TRPR limits as any other vaping product, from the 20mg/ml strength cap to the 10ml bottle size and child-resistant labelling rules. Here is how those rules apply to nic salts specifically, and how to tell a compliant bottle from one that isn't.",
+    readTime: "8 min read",
+    lastUpdatedDisplay: "Last updated 27 September 2026",
+    lastUpdatedISO: "2026-09-27",
+    publishedISO: "2026-09-27",
+    image: "/images/nic-salt-bottle-pod-device.jpg",
+    imageAlt:
+      "A 10ml nicotine salt e-liquid bottle carrying a printed nicotine warning label, standing next to a pod vape device",
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
