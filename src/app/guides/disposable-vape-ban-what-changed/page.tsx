@@ -155,10 +155,14 @@ export default function Page() {
         <Link href="/guides/e-liquid-rules-nicotine-limits-bottle-sizes-labelling">
           UK e-liquid rules on nicotine limits and bottle sizes
         </Link>
-        . For a worked example of how a specific rechargeable kit clears the
-        single-use definition in practice, see our piece on{" "}
+        . For worked examples of how specific rechargeable kits clear the
+        single-use definition in practice, see our pieces on{" "}
         <Link href="/guides/al-fakher-hypermax-prime-50k-uk-vaping-law">
           how the Al Fakher HyperMax Prime 50K sits within UK vaping law
+        </Link>{" "}
+        and{" "}
+        <Link href="/guides/lost-mary-bm6000-disposable-ban-compliance">
+          how devices like the Lost Mary BM6000 comply with the ban
         </Link>
         .
       </p>

@@ -108,6 +108,20 @@ export const articles: Article[] = [
     imageAlt:
       "A 10ml nicotine salt e-liquid bottle carrying a printed nicotine warning label, standing next to a pod vape device",
   },
+  {
+    slug: "lost-mary-bm6000-disposable-ban-compliance",
+    title: "How devices like the Lost Mary BM6000 comply with the UK disposable vape ban",
+    category: "Regulation",
+    excerpt:
+      "The Lost Mary BM6000 is a rechargeable pod system, not a disposable, which is why it remained legal to sell after the 1 June 2025 single-use ban. Here is how that structural difference works in practice, and how to spot a genuinely compliant device on a shop shelf.",
+    readTime: "8 min read",
+    lastUpdatedDisplay: "Last updated 30 September 2026",
+    lastUpdatedISO: "2026-09-30",
+    publishedISO: "2026-09-30",
+    image: "/images/pod-kit-devices-closeup.jpg",
+    imageAlt:
+      "Two rechargeable pod vape kits with replaceable pods standing close together on a table",
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {
